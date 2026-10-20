@@ -55,3 +55,6 @@ src/
 - One-off layout is written as Tailwind utilities in JSX; stateful/decorative
   CSS (pseudo-elements, keyframes, `.on`/`.done`/`.dragging`/`.shake` states,
   media queries) stays in `src/styles.css`.
+
+## Footnote
+Built using an local LLM using LM Studio + Claude Code with qwen/qwen3.8-27b
