@@ -3,9 +3,6 @@
 A local-first todo app with a dark-green paper aesthetic. Everything is stored in
 `localStorage` — no account, no server.
 
-Refactored from a single `index.html` into a **Vite + React + Tailwind CSS v4**
-project.
-
 ## Stack
 
 - [Vite](https://vitejs.dev/) + [React 19](https://react.dev/)
@@ -58,4 +55,3 @@ src/
 - One-off layout is written as Tailwind utilities in JSX; stateful/decorative
   CSS (pseudo-elements, keyframes, `.on`/`.done`/`.dragging`/`.shake` states,
   media queries) stays in `src/styles.css`.
-- `index.html.bak` is the original single-file app, kept for reference.
