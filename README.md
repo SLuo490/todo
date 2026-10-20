@@ -13,10 +13,17 @@ A local-first todo app with a dark-green paper aesthetic. Everything is stored i
 
 ```sh
 npm install
-npm run dev      # local dev server
+npm run dev      # local dev server (served at /todo/)
 npm run build    # production build to dist/
 npm run preview  # serve the production build
 ```
+
+## Live
+
+Published to GitHub Pages at <https://sluo490.github.io/todo/> via
+`.github/workflows/pages.yml` (builds on push to `main`). The `base: "/todo/"`
+in `vite.config.js` must match the repo name. To enable it once: repo
+Settings → Pages → Source: **GitHub Actions**.
 
 ## Structure
 
